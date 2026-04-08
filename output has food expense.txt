@@ -1,0 +1,58 @@
+1. Add User
+2. Add Expense
+3. View Expenses
+4. Exit
+Enter choice: 1
+Enter name: Vinoth
+User added successfully
+
+1. Add User
+2. Add Expense
+3. View Expenses
+4. Exit
+Enter choice: 2
+User ID: 1
+Amount: 2000
+Category: Food
+Description: Lunch
+Date (YYYY-MM-DD): 2026-04-01
+Expense added
+
+1. Add User
+2. Add Expense
+3. View Expenses
+4. Exit
+Enter choice: 2
+User ID: 1
+Amount: 1500        
+Category: Travel
+Description: Bus
+Date (YYYY-MM-DD): 2026-04-02
+Expense added
+
+1. Add User
+2. Add Expense
+3. View Expenses
+4. Exit
+Enter choice: 2
+User ID: 1
+Amount: 3000
+Category: Food
+Description: Dinner
+Date (YYYY-MM-DD): 2026-04-03
+Expense added
+
+1. Add User
+2. Add Expense
+3. View Expenses
+4. Exit
+Enter choice: 3
+User ID: 1
+('Vinoth', 2000.0, 'Food', 'Lunch', datetime.date(2026, 4, 1))
+('Vinoth', 1500.0, 'Travel', 'Bus', datetime.date(2026, 4, 2))
+('Vinoth', 3000.0, 'Food', 'Dinner', datetime.date(2026, 4, 3))
+Total: 6500.0
+Category: {'Food': 5000.0, 'Travel': 1500.0}
+Highest: ('Vinoth', 3000.0, 'Food', 'Dinner', datetime.date(2026, 4, 3))
+Monthly: {'2026-04': 6500.0}
+Insight: You are spending too much on Food
